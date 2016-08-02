@@ -10,6 +10,7 @@ Requirements
 In order to build dwm you need the Xlib header files.
 
 The `xinitrc` file requires the following:
+
 	* Nitrogen
 	* Compton compositor
 	* Conky
