@@ -4,6 +4,7 @@ dwm is an extremely fast, small, and dynamic window manager for X.
 
 This is a copy of my custom dwm 6.0 sources.
 
+![Screenshot](http://i.imgur.com/PcL2CLJ.png "dwm with Xfce4 menu and dock")
 
 Requirements
 ------------
