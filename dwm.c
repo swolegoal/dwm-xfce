@@ -760,11 +760,11 @@ drawbar(Monitor *m) {
 		dc.x = m->ww;
 	if((dc.w = dc.x - x) > bh) {
 		dc.x = x; //where to start selected window title
-		dc.w += 112;
+		//dc.w += 112;
 		if(m->sel) {
 			col = m == selmon ? dc.sel : dc.norm;
 			drawtext(m->sel->name, col, False);
-			drawsquare(m->sel->isfixed, m->sel->isfloating, False, col);
+			drawsquare(m->sel->isfixed, m->sel->isfloating, False, col + 112);
 		}
 		else
 			drawtext(NULL, dc.norm, False);
@@ -799,7 +799,7 @@ drawtext(const char *text, unsigned long col[ColLast], Bool invert) {
 	int i, x, y, h, len, olen;
 
 	XSetForeground(dpy, dc.gc, col[invert ? ColFG : ColBG]);
-	XFillRectangle(dpy, dc.drawable, dc.gc, dc.x + 112, dc.y, dc.w - 112, dc.h);
+	XFillRectangle(dpy, dc.drawable, dc.gc, dc.x + 112, dc.y, dc.w, dc.h);
 	if(!text)
 		return;
 	olen = strlen(text);

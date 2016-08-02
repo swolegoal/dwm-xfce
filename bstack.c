@@ -9,7 +9,7 @@ bstack(Monitor *m) {
 		return;
 	if(n > m->nmaster) {
 		mh = m->nmaster ? m->mfact * m->wh : 0;
-		tw = m->ww / (n - m->nmaster);
+		tw = m->ww / (n - m->nmaster - 48);
 		ty = m->wy + mh;
 	} 
 	else {
@@ -19,7 +19,7 @@ bstack(Monitor *m) {
 	}
 	for(i = mx = 0, tx = m->wx, c = nexttiled(m->clients); c; c = nexttiled(c->next), i++) {
 		if(i < m->nmaster) {
-			w = (m->ww - mx) / (MIN(n, m->nmaster) - i);
+			w = (m->ww - mx) / (MIN(n, m->nmaster) - i - 48);
 			resize(c, m->wx + mx, m->wy, w - (2 * c->bw), mh - (2 * c->bw), False);
 			mx += WIDTH(c);
 		} 
