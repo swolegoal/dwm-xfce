@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=960;y=16"/>
+      <property name="length" type="uint" value="1"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="31"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+      </property>
+      <property name="output-name" type="string" value=""/>
+      <property name="disable-struts" type="bool" value="true"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-color" type="array">
+        <value type="uint" value="17476"/>
+        <value type="uint" value="17476"/>
+        <value type="uint" value="17476"/>
+        <value type="uint" value="65535"/>
+      </property>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=8;x=25;y=1058"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="24"/>
+        <value type="int" value="16"/>
+        <value type="int" value="11"/>
+        <value type="int" value="17"/>
+        <value type="int" value="10"/>
+        <value type="int" value="18"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+        <value type="int" value="12"/>
+      </property>
+      <property name="mode" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="length" type="uint" value="10"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="button-icon" type="string" value="/usr/share/icons/archlogo-full.svg"/>
+      <property name="show-generic-names" type="bool" value="false"/>
+      <property name="show-menu-icons" type="bool" value="true"/>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="button-title" type="string" value="Applications"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+    </property>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+    </property>
+    <property name="plugin-9" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14294272781.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-10" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14294272782.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-12" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14294272784.desktop"/>
+      </property>
+      <property name="show-label" type="bool" value="false"/>
+      <property name="disable-tooltips" type="bool" value="false"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+    </property>
+    <property name="plugin-14" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/axuak"/>
+    </property>
+    <property name="plugin-11" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14452171341.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14452711831.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14453158381.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14687096951.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-24" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14689284231.desktop"/>
+      </property>
+    </property>
+  </property>
+</channel>
