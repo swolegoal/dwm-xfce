@@ -25,7 +25,7 @@ recommended to also install the bluegray files shipped in the dextra package.
 
 Running dwm
 -----------
-Run the startx command from the console to start dwm.
+Run the `startx` command from the console to start dwm.
 
 In order to connect dwm to a specific display, make sure that
 the DISPLAY environment variable is set correctly, e.g.:
