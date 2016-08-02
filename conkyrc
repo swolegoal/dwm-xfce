@@ -1,0 +1,10 @@
+out_to_console yes
+out_to_x no
+background no
+update_interval 2
+total_run_times 0
+use_spacer none
+
+TEXT
+${color (\#005577)}|    ${cpu cpu1}% / ${cpu cpu2}% / ${cpu cpu3}% / ${cpu cpu4}%    |    ${acpitemp}C    |    $memperc% ($mem)    |    eno1 ${downspeed eno1}/s ${upspeed eno1}/s    |    wlp3s0 ${downspeed wlp3s0}/s ${upspeed wlp3s0}/s    |    enp0s29u1u1 ${downspeed enp0s29u1u1}/s ${upspeed enp0s29u1u1}/s    |    ${battery}    |    ${time %a %b %d %I:%M%P}    |
+# / ${cpu cpu5}% / ${cpu cpu6}% / ${cpu cpu7}% / ${cpu cpu8}%

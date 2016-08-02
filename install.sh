@@ -11,4 +11,9 @@ if [ -e ~/.xinitrc ] ; then
 	mv ~/.xinitrc ~/.xinitrc.bak
 fi
 
+if [ -e ~/.conkyrc ] ; then
+	mv ~/.conkyrc ~/.conkyrc.bak
+fi
+
 cp xinitrc ~/.xinitrc
+cp conkyrc ~/.conkyrc
